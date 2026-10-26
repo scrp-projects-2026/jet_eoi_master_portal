@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<!-- saved from url=(0093)file:///C:/Users/ASUS/Downloads/jubilee_inclusive_green_campus_sovereign_dashboard%20(2).html -->
+<html lang="en" class="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jubilee Inclusive Green Campus - Sovereign Dashboard</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="./index,html_files/saved_resource"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#090D14',
+                        cardBg: '#111827',
+                        cardBorder: '#1F2937',
+                        emeraldGold: '#10B981',
+                        accentGold: '#F59E0B',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons -->
+    <script src="./index,html_files/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link href="./index,html_files/css2" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #06090e;
+            color: #F3F4F6;
+        }
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .glass-panel {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card {
+            background: linear-gradient(135deg, rgba(17, 24, 39, 0.8) 0%, rgba(15, 23, 42, 0.6) 100%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card:hover {
+            border-color: rgba(16, 185, 129, 0.4);
+            box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.2);
+            transform: translateY(-2px);
+        }
+        .gold-glow {
+            box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+        }
+        .emerald-glow {
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.25);
+        }
+        /* Custom scrollbars */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #090D14;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1F2937;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #10B981;
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-bottom-10{bottom:-2.5rem}.-right-10{right:-2.5rem}.left-3\.5{left:0.875rem}.top-0{top:0px}.top-1\/2{top:50%}.z-10{z-index:10}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mr-1{margin-right:0.25rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-4{margin-top:1rem}.line-clamp-2{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1\.5{height:0.375rem}.h-10{height:2.5rem}.h-2{height:0.5rem}.h-2\.5{height:0.625rem}.h-3\.5{height:0.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-80{height:20rem}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.min-h-screen{min-height:100vh}.w-1\.5{width:0.375rem}.w-10{width:2.5rem}.w-2{width:0.5rem}.w-2\.5{width:0.625rem}.w-3\.5{width:0.875rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-80{width:20rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes ping{75%, 100%{transform:scale(2);opacity:0}}.animate-ping{animation:ping 1s cubic-bezier(0, 0, 0.2, 1) infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.space-x-1 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.25rem * var(--tw-space-x-reverse));margin-left:calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-amber-500\/20{border-color:rgb(245 158 11 / 0.2)}.border-amber-500\/30{border-color:rgb(245 158 11 / 0.3)}.border-emerald-500\/20{border-color:rgb(16 185 129 / 0.2)}.border-emerald-500\/30{border-color:rgb(16 185 129 / 0.3)}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-gray-800\/80{border-color:rgb(31 41 55 / 0.8)}.border-red-500\/20{border-color:rgb(239 68 68 / 0.2)}.bg-\[\#06090e\]{--tw-bg-opacity:1;background-color:rgb(6 9 14 / var(--tw-bg-opacity, 1))}.bg-\[\#0B0F17\]{--tw-bg-opacity:1;background-color:rgb(11 15 23 / var(--tw-bg-opacity, 1))}.bg-amber-500\/10{background-color:rgb(245 158 11 / 0.1)}.bg-black\/80{background-color:rgb(0 0 0 / 0.8)}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/10{background-color:rgb(16 185 129 / 0.1)}.bg-emerald-500\/20{background-color:rgb(16 185 129 / 0.2)}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-emerald-950\/40{background-color:rgb(2 44 34 / 0.4)}.bg-emerald-950\/80{background-color:rgb(2 44 34 / 0.8)}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-gray-900\/80{background-color:rgb(17 24 39 / 0.8)}.bg-gray-900\/90{background-color:rgb(17 24 39 / 0.9)}.bg-gray-950{--tw-bg-opacity:1;background-color:rgb(3 7 18 / var(--tw-bg-opacity, 1))}.bg-red-950\/80{background-color:rgb(69 10 10 / 0.8)}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-tr{background-image:linear-gradient(to top right, var(--tw-gradient-stops))}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-950\/60{--tw-gradient-from:rgb(2 44 34 / 0.6) var(--tw-gradient-from-position);--tw-gradient-to:rgb(2 44 34 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-emerald-400{--tw-gradient-to:rgb(52 211 153 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #34d399 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-gray-900{--tw-gradient-to:rgb(17 24 39 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #111827 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-amber-400{--tw-gradient-to:#fbbf24 var(--tw-gradient-to-position)}.to-amber-950\/30{--tw-gradient-to:rgb(69 26 3 / 0.3) var(--tw-gradient-to-position)}.p-0\.5{padding:0.125rem}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.px-1\.5{padding-left:0.375rem;padding-right:0.375rem}.pb-2{padding-bottom:0.5rem}.pl-10{padding-left:2.5rem}.pr-4{padding-right:1rem}.pt-5{padding-top:1.25rem}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246 / var(--tw-text-opacity, 1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.placeholder-gray-500::placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128 / var(--tw-placeholder-opacity, 1))}.opacity-75{opacity:0.75}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-emerald-500\/20{--tw-shadow-color:rgb(16 185 129 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-emerald-500 *::selection{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.selection\:text-black *::selection{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.selection\:bg-emerald-500::selection{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.selection\:text-black::selection{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:border-gray-700:hover{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.hover\:bg-emerald-500:hover{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.hover\:text-emerald-400:hover{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.hover\:text-gray-200:hover{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.hover\:text-red-400:hover{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.focus\:border-emerald-500:focus{--tw-border-opacity:1;border-color:rgb(16 185 129 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.group:hover .group-hover\:text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:gap-6{gap:1.5rem}.sm\:p-6{padding:1.5rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:justify-end{justify-content:flex-end}.md\:justify-between{justify-content:space-between}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}.lg\:items-center{align-items:center}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
+<body class="min-h-screen flex flex-col bg-[#06090e] text-gray-100 antialiased selection:bg-emerald-500 selection:text-black">
+
+    <!-- Top Navigation / Header -->
+    <header class="sticky top-0 z-40 glass-panel border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <!-- Brand Title -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 via-emerald-400 to-amber-400 flex items-center justify-center p-0.5 shadow-lg emerald-glow">
+                        <div class="w-full h-full bg-gray-950 rounded-[10px] flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" aria-hidden="true" class="lucide lucide-shield-check w-5 h-5 text-emerald-400"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h1 class="text-xl font-bold tracking-tight text-white">Jubilee Inclusive Green Campus</h1>
+                            <span class="text-[10px] uppercase tracking-widest px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-400 border border-emerald-500/30 font-semibold">Sovereign Edition</span>
+                        </div>
+                        <p class="text-xs text-gray-400 font-medium flex items-center gap-1.5 mt-0.5">
+                            <span>Scapush Precision Master Command &amp; Access Portal</span>
+                            <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Clock & Status Bar -->
+                <div class="flex items-center justify-between md:justify-end gap-6 text-sm">
+                    <!-- Live Clock -->
+                    <div class="flex items-center space-x-2 bg-gray-900/80 border border-gray-800 rounded-lg px-3 py-1.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clock" aria-hidden="true" class="lucide lucide-clock w-4 h-4 text-amber-400"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                        <span id="live-clock" class="mono font-semibold text-gray-200">2026-10-26 17:09:24 UTC</span>
+                    </div>
+
+                    <!-- System Status Indicator -->
+                    <div class="flex items-center space-x-2 bg-emerald-950/40 border border-emerald-500/30 rounded-lg px-3 py-1.5">
+                        <span class="relative flex h-2.5 w-2.5">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                        </span>
+                        <span class="text-xs font-bold tracking-wider text-emerald-400 uppercase">SYSTEMS OPERATIONAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+        <!-- Banner & Quick Summary -->
+        <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-emerald-950/60 via-gray-900 to-amber-950/30 border border-emerald-500/20 p-6 sm:p-8">
+            <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+                <div class="space-y-2 max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="crown" aria-hidden="true" class="lucide lucide-crown w-3.5 h-3.5"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"></path><path d="M5 21h14"></path></svg> Scapush Precision Protocol Active
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Executive Document Vault &amp; System Telemetry</h2>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Access all 19 integrated blueprint files, sovereign governance registers, financial models, and CAD schematics engineered for the Jubilee Inclusive Green Campus deployment.
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button onclick="downloadAllManifest()" class="flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2.5 rounded-xl font-medium text-sm transition shadow-lg emerald-glow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="download" aria-hidden="true" class="lucide lucide-download w-4 h-4"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg> Export Manifest
+                    </button>
+                    <button onclick="refreshData()" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 px-4 py-2.5 rounded-xl font-medium text-sm transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="refresh-cw" aria-hidden="true" class="lucide lucide-refresh-cw w-4 h-4"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg> Refresh Metrics
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Performance Metrics / Stat Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            <!-- Stat 1 -->
+            <div class="glass-card rounded-2xl p-5 flex items-center justify-between">
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Total System Assets</p>
+                    <h3 class="text-3xl font-bold text-white mt-1">19 <span class="text-xs font-normal text-gray-400">Files</span></h3>
+                    <p class="text-xs text-emerald-400 mt-1 flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle-2" aria-hidden="true" class="lucide lucide-check-circle-2 w-3.5 h-3.5"><circle cx="12" cy="12" r="10"></circle><path d="m16 9-5.5 5.5L8 12"></path></svg> 100% Verified
+                    </p>
+                </div>
+                <div class="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl text-emerald-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="files" aria-hidden="true" class="lucide lucide-files w-6 h-6"><path d="M15 2h-4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"></path><path d="M16.706 2.706A2.4 2.4 0 0 0 15 2v5a1 1 0 0 0 1 1h5a2.4 2.4 0 0 0-.706-1.706z"></path><path d="M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1"></path></svg>
+                </div>
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="glass-card rounded-2xl p-5 flex items-center justify-between">
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Microclimate Units</p>
+                    <h3 class="text-3xl font-bold text-white mt-1">2 <span class="text-xs font-normal text-emerald-400">Online</span></h3>
+                    <p class="text-xs text-amber-400 mt-1 flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="cpu" aria-hidden="true" class="lucide lucide-cpu w-3.5 h-3.5"><path d="M12 20v2"></path><path d="M12 2v2"></path><path d="M17 20v2"></path><path d="M17 2v2"></path><path d="M2 12h2"></path><path d="M2 17h2"></path><path d="M2 7h2"></path><path d="M20 12h2"></path><path d="M20 17h2"></path><path d="M20 7h2"></path><path d="M7 20v2"></path><path d="M7 2v2"></path><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="8" y="8" width="8" height="8" rx="1"></rect></svg> Swine &amp; Broiler Active
+                    </p>
+                </div>
+                <div class="p-3 bg-amber-500/10 border border-amber-500/20 rounded-xl text-amber-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="thermometer-snowflake" aria-hidden="true" class="lucide lucide-thermometer-snowflake w-6 h-6"><path d="m10 20-1.25-2.5L6 18"></path><path d="M10 4 8.75 6.5 6 6"></path><path d="M10.585 15H10"></path><path d="M2 12h6.5L10 9"></path><path d="M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"></path><path d="m4 10 1.5 2L4 14"></path><path d="m7 21 3-6-1.5-3"></path><path d="m7 3 3 6h2"></path></svg>
+                </div>
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="glass-card rounded-2xl p-5 flex items-center justify-between">
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Bio-Solar Efficiency</p>
+                    <h3 class="text-3xl font-bold text-emerald-400 mt-1">98.4%</h3>
+                    <p class="text-xs text-gray-400 mt-1 flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zap" aria-hidden="true" class="lucide lucide-zap w-3.5 h-3.5 text-amber-400"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"></path></svg> Microgrid Optimized
+                    </p>
+                </div>
+                <div class="p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-xl text-emerald-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sun-medium" aria-hidden="true" class="lucide lucide-sun-medium w-6 h-6"><circle cx="12" cy="12" r="4"></circle><path d="M12 3v1"></path><path d="M12 20v1"></path><path d="M3 12h1"></path><path d="M20 12h1"></path><path d="m18.364 5.636-.707.707"></path><path d="m6.343 17.657-.707.707"></path><path d="m5.636 5.636.707.707"></path><path d="m17.657 17.657.707.707"></path></svg>
+                </div>
+            </div>
+
+            <!-- Stat 4 -->
+            <div class="glass-card rounded-2xl p-5 flex items-center justify-between">
+                <div>
+                    <p class="text-xs uppercase tracking-wider text-gray-400 font-semibold">Governance Status</p>
+                    <h3 class="text-2xl font-bold text-amber-400 mt-1">Sovereign</h3>
+                    <p class="text-xs text-emerald-400 mt-1 flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" aria-hidden="true" class="lucide lucide-shield-check w-3.5 h-3.5"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg> Scapush Compliant
+                    </p>
+                </div>
+                <div class="p-3 bg-amber-500/10 border border-amber-500/20 rounded-xl text-amber-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="award" aria-hidden="true" class="lucide lucide-award w-6 h-6"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path><circle cx="12" cy="8" r="6"></circle></svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Document Hub Filter Bar & Search -->
+        <div class="space-y-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-gray-900/90 border border-gray-800 p-4 rounded-2xl">
+                <!-- Search Input -->
+                <div class="relative flex-grow max-w-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="search" aria-hidden="true" class="lucide lucide-search w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+                    <input type="text" id="search-input" onkeyup="filterDocuments()" placeholder="Search document name, code, or description..." class="w-full pl-10 pr-4 py-2 bg-gray-950 border border-gray-800 rounded-xl text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-emerald-500 transition">
+                </div>
+
+                <!-- Sort & Filter options -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider mr-1">Sort:</span>
+                    <select id="sort-select" onchange="filterDocuments()" class="bg-gray-950 border border-gray-800 rounded-xl px-3 py-2 text-xs text-gray-200 focus:outline-none focus:border-emerald-500">
+                        <option value="default">Default Order</option>
+                        <option value="name-asc">Title (A-Z)</option>
+                        <option value="size-desc">File Size (Largest)</option>
+                        <option value="date-desc">Date Modified (Newest)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none" id="category-tabs">
+                <button onclick="setCategory('All')" class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition bg-gray-900 text-gray-400 hover:text-white border border-gray-800 hover:border-gray-700">
+                    All (18)
+                </button>
+            
+                <button onclick="setCategory('Governance')" class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition bg-gray-900 text-gray-400 hover:text-white border border-gray-800 hover:border-gray-700">
+                    Governance 
+                </button>
+            
+                <button onclick="setCategory('Engineering')" class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition bg-gray-900 text-gray-400 hover:text-white border border-gray-800 hover:border-gray-700">
+                    Engineering 
+                </button>
+            
+                <button onclick="setCategory('Financial')" class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition bg-gray-900 text-gray-400 hover:text-white border border-gray-800 hover:border-gray-700">
+                    Financial 
+                </button>
+            
+                <button onclick="setCategory('Strategy')" class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition bg-gray-900 text-gray-400 hover:text-white border border-gray-800 hover:border-gray-700">
+                    Strategy 
+                </button>
+            
+                <button onclick="setCategory('Microclimate')" class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition bg-emerald-500 text-black font-bold shadow-lg shadow-emerald-500/20">
+                    Microclimate 
+                </button>
+            </div>
+        </div>
+
+        <!-- Document Grid -->
+        <div id="document-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <!-- Top Badges -->
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-900 border border-gray-800 text-[10px] font-mono font-semibold uppercase tracking-wider text-emerald-400">
+                                Microclimate
+                            </span>
+                            <div class="flex items-center space-x-1 font-mono text-[11px] text-gray-400">
+                                <span class="px-1.5 py-0.5 rounded bg-emerald-950/80 text-emerald-400 border border-emerald-500/20 font-bold">.HTML (34 KB)</span>
+                                <span class="px-1.5 py-0.5 rounded bg-red-950/80 text-red-400 border border-red-500/20 font-bold">.PDF</span>
+                            </div>
+                        </div>
+
+                        <!-- Card Header & Title -->
+                        <div>
+                            <h3 class="text-base font-bold text-white group-hover:text-emerald-400 transition leading-snug">
+                                Circular Waste-to-Value Matrix
+                            </h3>
+                            <p class="text-xs font-mono text-gray-400 mt-1">12waste_to_value_matrix.html</p>
+                        </div>
+
+                        <!-- Description -->
+                        <p class="text-xs text-gray-400 leading-relaxed line-clamp-2">
+                            Bio-refinery mapping converting agricultural and livestock waste into bio-methane and organic fertilizer.
+                        </p>
+                    </div>
+
+                    <!-- Card Footer & Action -->
+                    <div class="pt-5 mt-4 border-t border-gray-800/80 flex items-center justify-between">
+                        <span class="text-[11px] font-mono text-gray-400 flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar" aria-hidden="true" class="lucide lucide-calendar w-3.5 h-3.5 text-gray-400"><path d="M8 2v3"></path><path d="M16 2v3"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path></svg> 2026/10/26
+                        </span>
+                        <button onclick="openModal('12')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-black border border-emerald-500/30 text-xs font-semibold transition">
+                            <span>OPEN DOCUMENT</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" aria-hidden="true" class="lucide lucide-arrow-right w-3.5 h-3.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <!-- Top Badges -->
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-900 border border-gray-800 text-[10px] font-mono font-semibold uppercase tracking-wider text-emerald-400">
+                                Microclimate
+                            </span>
+                            <div class="flex items-center space-x-1 font-mono text-[11px] text-gray-400">
+                                <span class="px-1.5 py-0.5 rounded bg-emerald-950/80 text-emerald-400 border border-emerald-500/20 font-bold">.HTML (93 KB)</span>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Card Header & Title -->
+                        <div>
+                            <h3 class="text-base font-bold text-white group-hover:text-emerald-400 transition leading-snug">
+                                Broiler Microclimate Automated Thermal Blueprint
+                            </h3>
+                            <p class="text-xs font-mono text-gray-400 mt-1">broiler_microclimate_blueprint.html</p>
+                        </div>
+
+                        <!-- Description -->
+                        <p class="text-xs text-gray-400 leading-relaxed line-clamp-2">
+                            Automated climate control blueprint for broiler poultry housing featuring PID thermal regulation.
+                        </p>
+                    </div>
+
+                    <!-- Card Footer & Action -->
+                    <div class="pt-5 mt-4 border-t border-gray-800/80 flex items-center justify-between">
+                        <span class="text-[11px] font-mono text-gray-400 flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar" aria-hidden="true" class="lucide lucide-calendar w-3.5 h-3.5 text-gray-400"><path d="M8 2v3"></path><path d="M16 2v3"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path></svg> 2026/10/23
+                        </span>
+                        <button onclick="openModal('13')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-black border border-emerald-500/30 text-xs font-semibold transition">
+                            <span>OPEN DOCUMENT</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" aria-hidden="true" class="lucide lucide-arrow-right w-3.5 h-3.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            
+                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <!-- Top Badges -->
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-900 border border-gray-800 text-[10px] font-mono font-semibold uppercase tracking-wider text-emerald-400">
+                                Microclimate
+                            </span>
+                            <div class="flex items-center space-x-1 font-mono text-[11px] text-gray-400">
+                                <span class="px-1.5 py-0.5 rounded bg-emerald-950/80 text-emerald-400 border border-emerald-500/20 font-bold">.HTML (82 KB)</span>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Card Header & Title -->
+                        <div>
+                            <h3 class="text-base font-bold text-white group-hover:text-emerald-400 transition leading-snug">
+                                Swine Microclimate Environmental Controller
+                            </h3>
+                            <p class="text-xs font-mono text-gray-400 mt-1">swine_microclimate_ontroller.html</p>
+                        </div>
+
+                        <!-- Description -->
+                        <p class="text-xs text-gray-400 leading-relaxed line-clamp-2">
+                            Microcontroller automation code &amp; logic for temperature, ammonia, and ventilation regulation in swine housing.
+                        </p>
+                    </div>
+
+                    <!-- Card Footer & Action -->
+                    <div class="pt-5 mt-4 border-t border-gray-800/80 flex items-center justify-between">
+                        <span class="text-[11px] font-mono text-gray-400 flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar" aria-hidden="true" class="lucide lucide-calendar w-3.5 h-3.5 text-gray-400"><path d="M8 2v3"></path><path d="M16 2v3"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path></svg> 2026/10/23
+                        </span>
+                        <button onclick="openModal('16')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-black border border-emerald-500/30 text-xs font-semibold transition">
+                            <span>OPEN DOCUMENT</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" aria-hidden="true" class="lucide lucide-arrow-right w-3.5 h-3.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 bg-gray-950 py-6 mt-12 text-center text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© 2026 Jubilee Inclusive Green Campus. Engineered under Scapush Precision Governance.</p>
+            <div class="flex items-center space-x-4">
+                <span class="hover:text-emerald-400 cursor-pointer">Security Protocol</span>
+                <span>•</span>
+                <span class="hover:text-emerald-400 cursor-pointer">Microgrid Architecture</span>
+                <span>•</span>
+                <span class="hover:text-emerald-400 cursor-pointer">System Console</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- DOCUMENT PREVIEW MODAL -->
+    <div id="doc-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/80 backdrop-blur-md p-4 sm:p-6 overflow-y-auto">
+        <div class="bg-gray-900 border border-gray-700 w-full max-w-5xl rounded-2xl shadow-2xl flex flex-col max-h-[90vh] overflow-hidden">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between border-b border-gray-800 px-6 py-4 bg-gray-950">
+                <div class="flex items-center space-x-3">
+                    <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" id="modal-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-text" aria-hidden="true" class="lucide lucide-file-text w-5 h-5"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+                    </div>
+                    <div>
+                        <h3 id="modal-title" class="text-lg font-bold text-white tracking-tight">Document Title</h3>
+                        <p id="modal-filename" class="text-xs font-mono text-gray-400">filename.html</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <button onclick="simPrint()" class="p-2 text-gray-400 hover:text-white hover:bg-gray-800 rounded-lg transition" title="Print Document">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="printer" aria-hidden="true" class="lucide lucide-printer w-4 h-4"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"></path><rect x="6" y="14" width="12" height="8" rx="1"></rect></svg>
+                    </button>
+                    <button onclick="simDownload()" class="p-2 text-gray-400 hover:text-white hover:bg-gray-800 rounded-lg transition" title="Export File">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="download" aria-hidden="true" class="lucide lucide-download w-4 h-4"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
+                    </button>
+                    <button onclick="closeModal()" class="p-2 text-gray-400 hover:text-red-400 hover:bg-gray-800 rounded-lg transition" title="Close Modal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" aria-hidden="true" class="lucide lucide-x w-5 h-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal Subnav Tabs (HTML View vs Metadata) -->
+            <div class="flex items-center justify-between bg-gray-900 px-6 py-2 border-b border-gray-800 text-xs">
+                <div class="flex space-x-4">
+                    <button onclick="switchModalTab('view')" id="tab-btn-view" class="px-3 py-1.5 rounded-lg font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                        Interactive View (.html)
+                    </button>
+                    <button onclick="switchModalTab('meta')" id="tab-btn-meta" class="px-3 py-1.5 rounded-lg font-semibold text-gray-400 hover:text-gray-200">
+                        PDF Metadata &amp; Audit (.pdf)
+                    </button>
+                </div>
+                <div id="modal-filesizes" class="text-gray-400 text-xs font-mono">
+                    HTML: -- KB | PDF: -- KB
+                </div>
+            </div>
+
+            <!-- Modal Content Body -->
+            <div class="p-6 overflow-y-auto flex-grow space-y-4 bg-[#0B0F17]" id="modal-body-content">
+                <!-- Injected doc content -->
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="px-6 py-3 bg-gray-950 border-t border-gray-800 flex items-center justify-between text-xs text-gray-400">
+                <span class="flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    Verified Scapush Precision Registry Entry
+                </span>
+                <button onclick="closeModal()" class="px-4 py-1.5 bg-gray-800 hover:bg-gray-700 text-white font-medium rounded-lg transition">
+                    Close Viewer
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data & Logic -->
+    <script>
+        // Full Document Database
+        const documents = [
+            {
+                id: "00",
+                filename: "00accessible_land_letter_of_intent",
+                title: "Accessible Land Letter of Intent",
+                category: "Governance",
+                htmlSize: "24 KB",
+                pdfSize: "994 KB",
+                date: "2026/10/22",
+                desc: "Formal Letter of Intent and land allocation request for accessible agrarian green campus development.",
+                content: `
+                    <div class="space-y-4 text-gray-200">
+                        <div class="p-4 bg-emerald-950/30 border border-emerald-500/30 rounded-xl">
+                            <h4 class="text-base font-bold text-emerald-400 uppercase tracking-wide">LETTER OF INTENT: LAND ALLOCATION & SITE REGISTRATION</h4>
+                            <p class="text-xs text-gray-400 mt-1">Ref: JIGC-LOI-2026-00 | Target Site: Sovereign Green Campus Agrarian Belt</p>
+                        </div>
+                        <p class="text-sm leading-relaxed">This document serves as the official Letter of Intent securing territorial rights, community access permissions, and environmental zoning clearings for the Jubilee Inclusive Green Campus initiative. Under Scapush Precision governance protocols, the site is earmarked for high-yield sustainable agriculture, bio-solar integration, and inclusive socio-economic development.</p>
+                        <div class="grid grid-cols-2 gap-4 text-xs font-mono mt-4">
+                            <div class="p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                <span class="text-gray-400 block">Zoning Standard:</span>
+                                <span class="text-emerald-400 font-bold">Agrarian Bio-Industrial</span>
+                            </div>
+                            <div class="p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                <span class="text-gray-400 block">Status:</span>
+                                <span class="text-amber-400 font-bold">Approved / Intent Granted</span>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: "01",
+                filename: "01jet_expression_of_interest",
+                title: "Just Energy Transition (JET) EOI",
+                category: "Governance",
+                htmlSize: "44 KB",
+                pdfSize: "1,141 KB",
+                date: "2026/10/26",
+                desc: "Just Energy Transition Expression of Interest outlining green jobs, clean power generation, and community upliftment.",
+                content: `
+                    <div class="space-y-4 text-gray-200">
+                        <div class="p-4 bg-amber-950/30 border border-amber-500/30 rounded-xl">
+                            <h4 class="text-base font-bold text-amber-400 uppercase tracking-wide">JUST ENERGY TRANSITION (JET) EXPRESSION OF INTEREST</h4>
+                            <p class="text-xs text-gray-400 mt-1">Framework Alignment: Decarbonization & Economic Re-skilling</p>
+                        </div>
+                        <p class="text-sm leading-relaxed">Comprehensive proposal aligning the Jubilee Campus with global and national JET frameworks. Focuses on transforming local agrarian sectors through zero-emission microgrids, bio-mass recovery, and creating 500+ green-tech apprenticeships.</p>
+                        <ul class="list-disc list-inside text-xs space-y-1 text-gray-300">
+                            <li>Primary Objective: Direct replacement of fossil-driven thermal heating in livestock microclimates.</li>
+                            <li>Socio-Economic ROI: Community co-ownership structure & skills development matrix.</li>
+                        </ul>
+                    </div>
+                `
+            },
+            {
+                id: "02",
+                filename: "02executive_summary",
+                title: "Jubilee Campus Executive Summary",
+                category: "Governance",
+                htmlSize: "39 KB",
+                pdfSize: "1,038 KB",
+                date: "2026/10/26",
+                desc: "High-level master executive summary detailing the vision, core pillars, and strategic roadmap of the campus.",
+                content: `
+                    <div class="space-y-4 text-gray-200">
+                        <h4 class="text-lg font-bold text-white border-b border-gray-800 pb-2">Jubilee Inclusive Green Campus - Executive Master Brief</h4>
+                        <p class="text-sm leading-relaxed">The Jubilee Inclusive Green Campus represents a benchmark model in self-sustaining sovereign infrastructure. By integrating bio-solar microgrids, precision microclimate controllers for livestock, circular waste-to-value systems, and an entrepreneurship academy, the campus establishes complete operational autonomy.</p>
+                        <div class="grid grid-cols-3 gap-3 text-center">
+                            <div class="p-3 bg-gray-900 rounded-xl border border-gray-800">
+                                <div class="text-emerald-400 text-lg font-bold">100%</div>
+                                <div class="text-[10px] text-gray-400 uppercase">Off-Grid Thermal</div>
+                            </div>
+                            <div class="p-3 bg-gray-900 rounded-xl border border-gray-800">
+                                <div class="text-amber-400 text-lg font-bold">Zero</div>
+                                <div class="text-[10px] text-gray-400 uppercase">Organic Waste</div>
+                            </div>
+                            <div class="p-3 bg-gray-900 rounded-xl border border-gray-800">
+                                <div class="text-blue-400 text-lg font-bold">10-Yr</div>
+                                <div class="text-[10px] text-gray-400 uppercase">Sovereign Model</div>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: "03",
+                filename: "03design_basis_memorandum",
+                title: "Engineering Design Basis Memorandum",
+                category: "Engineering",
+                htmlSize: "39 KB",
+                pdfSize: "0 KB",
+                date: "2026/10/26",
+                desc: "Technical engineering criteria, load profiles, thermal coefficients, and structural parameters for campus facilities.",
+                content: `
+                    <div class="space-y-4 text-gray-200">
+                        <div class="p-3 bg-gray-900 border border-gray-700 rounded-lg">
+                            <span class="text-xs font-mono text-emerald-400">ENGINEERING DESIGN BASIS MEMORANDUM (DBM)</span>
+                            <p class="text-xs text-gray-400">Mechanical, Electrical, Hydraulic & Structural Protocols</p>
+                        </div>
+                        <p class="text-sm">Defines baseline environmental constraints, structural tolerances for heavy bio-digesters, HVAC exchanges, and thermal storage efficiency coefficients required across all campus structures.</p>
+                    </div>
+                `
+            },
+            {
+                id: "04",
+                filename: "04sovereign_microgrid",
+                title: "Sovereign Bio-Solar Microgrid Spec",
+                category: "Engineering",
+                htmlSize: "43 KB",
+                pdfSize: "0 KB",
+                date: "2026/10/26",
+                desc: "Technical specifications for hybrid bio-gas and solar-PV sovereign microgrid power network.",
+                content: `
+                    <div class="space-y-4">
+                        <h4 class="text-base font-bold text-amber-400">SOVEREIGN BIO-SOLAR HYBRID MICROGRID</h4>
+                        <p class="text-sm text-gray-300">Detailed schematic specifications for dual-source power generation incorporating 250kW PV solar arrays backed by anaerobic digestion methane generators.</p>
+                    </div>
+                `
+            },
+            {
+                id: "05",
+                filename: "05entrepreneurship_academy",
+                title: "Entrepreneurship & Skills Academy",
+                category: "Strategy",
+                htmlSize: "50 KB",
+                pdfSize: "0 KB",
+                date: "2026/10/26",
+                desc: "Operational framework for the inclusive academy delivering green tech training and micro-enterprise incubation.",
+                content: `
+                    <div class="space-y-4">
+                        <h4 class="text-base font-bold text-emerald-400">INCLUSIVE ENTREPRENEURSHIP & SKILL ACADEMY</h4>
+                        <p class="text-sm text-gray-300">Curriculum and incubation model designed to train local youth in smart agri-tech, microclimate maintenance, and waste-to-value business execution.</p>
+                    </div>
+                `
+            },
+            {
+                id: "06",
+                filename: "06ideal_mvp_specifications",
+                title: "Ideal MVP Technical Specifications",
+                category: "Engineering",
+                htmlSize: "42 KB",
+                pdfSize: "1,412 KB",
+                date: "2026/10/26",
+                desc: "Minimum Viable Product operational criteria and baseline performance benchmarks for Phase 1.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-white">MINIMUM VIABLE PRODUCT (MVP) TARGET SPECS</h4>
+                        <p class="text-sm text-gray-300">Phase 1 deployment parameters ensuring immediate thermal stability for broiler and swine units within 90 days of ground breaking.</p>
+                    </div>
+                `
+            },
+            {
+                id: "07",
+                filename: "07mvp_labor_machinery_timelines",
+                title: "Labor, Machinery & Timelines",
+                category: "Strategy",
+                htmlSize: "41 KB",
+                pdfSize: "1,645 KB",
+                date: "2026/10/26",
+                desc: "Gantt charts, heavy equipment allocation, site civil work, and labor scheduling for rollout.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-emerald-400">LABOR & HEAVY MACHINERY EXECUTION TIMELINE</h4>
+                        <p class="text-sm text-gray-300">Gantt schedule specifying earthmovers, trenching, piping infrastructure, and skilled labor deployment over a 24-month horizon.</p>
+                    </div>
+                `
+            },
+            {
+                id: "08",
+                filename: "08itemised_cost_breakdown",
+                title: "Itemised Cost Breakdown Matrix",
+                category: "Financial",
+                htmlSize: "38 KB",
+                pdfSize: "1,351 KB",
+                date: "2026/10/26",
+                desc: "Comprehensive capital expenditure (CapEx) and operational expenditure (OpEx) line-item allocation matrix.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-amber-400">ITEMISED CAPITAL & OPERATIONAL EXPENDITURE</h4>
+                        <p class="text-sm text-gray-300">Granular line-item audit for microgrid hardware, civil structures, digester units, and control telemetry systems.</p>
+                    </div>
+                `
+            },
+            {
+                id: "09",
+                filename: "09financial_model_cashflow",
+                title: "10-Year Financial Model & Cashflow",
+                category: "Financial",
+                htmlSize: "36 KB",
+                pdfSize: "N/A",
+                date: "2026/10/26",
+                desc: "Long-term financial projection, break-even timelines, revenue streams, and internal rate of return (IRR).",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-emerald-400">10-YEAR SOVEREIGN CASHFLOW & IRR DYNAMICS</h4>
+                        <p class="text-sm text-gray-300">Projections detailing energy sales, agricultural yields, carbon credit monetization, and pay-back period within 4.2 years.</p>
+                    </div>
+                `
+            },
+            {
+                id: "10",
+                filename: "10design_register_governance",
+                title: "Design Register & Governance",
+                category: "Governance",
+                htmlSize: "47 KB",
+                pdfSize: "1,635 KB",
+                date: "2026/10/26",
+                desc: "Compliance standards, ISO quality registers, and Scapush Precision governance protocols.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-white">SOVEREIGN GOVERNANCE & DESIGN REGISTER</h4>
+                        <p class="text-sm text-gray-300">Quality assurance index, change management logs, and governance compliance protocols for campus assets.</p>
+                    </div>
+                `
+            },
+            {
+                id: "11",
+                filename: "11land_site_strategy",
+                title: "Land Site Strategy & Tenure",
+                category: "Strategy",
+                htmlSize: "39 KB",
+                pdfSize: "1,280 KB",
+                date: "2026/10/26",
+                desc: "Agrarian zoning, boundary mapping, soil hydrology, and long-term land utilization strategy.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-amber-400">LAND TENURE & AGRARIAN SITE STRATEGY</h4>
+                        <p class="text-sm text-gray-300">Geospatial parceling, hydrological flow management, and multi-crop rotation zoning strategy.</p>
+                    </div>
+                `
+            },
+            {
+                id: "12",
+                filename: "12waste_to_value_matrix",
+                title: "Circular Waste-to-Value Matrix",
+                category: "Microclimate",
+                htmlSize: "34 KB",
+                pdfSize: "1,027 KB",
+                date: "2026/10/26",
+                desc: "Bio-refinery mapping converting agricultural and livestock waste into bio-methane and organic fertilizer.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-emerald-400">CIRCULAR BIO-REFINERY WASTE-TO-VALUE MATRIX</h4>
+                        <p class="text-sm text-gray-300">Closed-loop conversion process mapping swine/poultry effluent into high-purity biomethane and nutrient-rich bio-fertilizers.</p>
+                    </div>
+                `
+            },
+            {
+                id: "13",
+                filename: "broiler_microclimate_blueprint",
+                title: "Broiler Microclimate Automated Thermal Blueprint",
+                category: "Microclimate",
+                htmlSize: "93 KB",
+                pdfSize: "N/A",
+                date: "2026/10/23",
+                desc: "Automated climate control blueprint for broiler poultry housing featuring PID thermal regulation.",
+                content: `
+                    <div class="space-y-4">
+                        <div class="p-4 bg-emerald-950/40 border border-emerald-500/30 rounded-xl flex justify-between items-center">
+                            <div>
+                                <h4 class="text-base font-bold text-emerald-400">BROILER THERMAL AUTOMATION BLUEPRINT</h4>
+                                <p class="text-xs text-gray-400">PID Closed-Loop Controller & Variable Ventilation</p>
+                            </div>
+                            <span class="px-3 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-md text-xs font-mono">ACTIVE MODULE</span>
+                        </div>
+                        <p class="text-sm text-gray-300">Maintains target 32°C brooding temperature scaling down to 21°C dynamically based on flock age. Integrated humidity sensing and automated evaporative cooling pads.</p>
+                    </div>
+                `
+            },
+            {
+                id: "14",
+                filename: "sovereign_bio_solar_thermal_campus_layout",
+                title: "Sovereign Bio-Solar Thermal Spatial CAD",
+                category: "Engineering",
+                htmlSize: "32 KB",
+                pdfSize: "N/A",
+                date: "2026/10/23",
+                desc: "Master 2D/3D spatial arrangement showing bio-solar piping, heat exchangers, and thermal loops.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-amber-400">SPATIAL CAD - BIO-SOLAR THERMAL LOOPS</h4>
+                        <p class="text-sm text-gray-300">Hydraulic layout connecting central methane anaerobic digester to heat exchangers across the entire campus footprint.</p>
+                    </div>
+                `
+            },
+            {
+                id: "15",
+                filename: "sovereign_campus_engineering_cad",
+                title: "Integrated Campus Engineering CAD",
+                category: "Engineering",
+                htmlSize: "21 KB",
+                pdfSize: "N/A",
+                date: "2026/10/23",
+                desc: "Comprehensive engineering CAD schematics for campus civil, power, and water reticulation.",
+                content: `
+                    <div class="space-y-3">
+                        <h4 class="text-base font-bold text-white">CAMPUS HYDRAULIC & ELECTRICAL SCHEMATICS</h4>
+                        <p class="text-sm text-gray-300">Engineering drawing standards covering primary water mains, dual-redundant microgrid lines, and central telemetry conduits.</p>
+                    </div>
+                `
+            },
+            {
+                id: "16",
+                filename: "swine_microclimate_ontroller",
+                title: "Swine Microclimate Environmental Controller",
+                category: "Microclimate",
+                htmlSize: "82 KB",
+                pdfSize: "N/A",
+                date: "2026/10/23",
+                desc: "Microcontroller automation code & logic for temperature, ammonia, and ventilation regulation in swine housing.",
+                content: `
+                    <div class="space-y-4">
+                        <div class="p-4 bg-amber-950/40 border border-amber-500/30 rounded-xl flex justify-between items-center">
+                            <div>
+                                <h4 class="text-base font-bold text-amber-400">SWINE ENVIRONMENTAL CONTROL SYSTEM</h4>
+                                <p class="text-xs text-gray-400">Multi-stage Ammonia Mitigation & Thermal Control</p>
+                            </div>
+                            <span class="px-3 py-1 bg-amber-500/20 text-amber-400 border border-amber-500/30 rounded-md text-xs font-mono">ACTIVE MODULE</span>
+                        </div>
+                        <p class="text-sm text-gray-300">Automated airflow regulation maintaining ammonia levels below 10ppm while maintaining localized floor heating grids powered by thermal loops.</p>
+                    </div>
+                `
+            },
+            {
+                id: "17",
+                filename: "unified_master_control_center",
+                title: "Unified Master Control Center (UMCC)",
+                category: "Engineering",
+                htmlSize: "133 KB",
+                pdfSize: "N/A",
+                date: "2026/10/23",
+                desc: "Supervisory SCADA interface code for real-time monitoring of campus-wide bio-solar and microclimate metrics.",
+                content: `
+                    <div class="space-y-4">
+                        <div class="p-4 bg-emerald-950/50 border border-emerald-500/40 rounded-xl">
+                            <h4 class="text-base font-bold text-emerald-400 uppercase tracking-wide">UNIFIED MASTER CONTROL CENTER (UMCC) CONSOLE</h4>
+                            <p class="text-xs text-gray-400">Central SCADA & Telemetry Data Hub</p>
+                        </div>
+                        <p class="text-sm text-gray-300">Aggregates all 18 sub-system telemetry feeds into a single real-time operational dashboard. Controls power distribution, alerts on thermal thresholds, and manages bio-gas output flow.</p>
+                    </div>
+                `
+            }
+        ];
+
+        let activeCategory = "All";
+        let activeDoc = null;
+
+        // Initialize Icons & UI
+        window.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            updateClock();
+            setInterval(updateClock, 1000);
+            renderCategoryTabs();
+            renderDocuments();
+        });
+
+        // Live Clock Function
+        function updateClock() {
+            const now = new Date();
+            const year = now.getUTCFullYear();
+            const month = String(now.getUTCMonth() + 1).padStart(2, '0');
+            const day = String(now.getUTCDate()).padStart(2, '0');
+            const hours = String(now.getUTCHours()).padStart(2, '0');
+            const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+            const seconds = String(now.getUTCSeconds()).padStart(2, '0');
+            document.getElementById('live-clock').innerText = `${year}-${month}-${day} ${hours}:${minutes}:${seconds} UTC`;
+        }
+
+        // Render Category Tabs
+        function renderCategoryTabs() {
+            const categories = ["All", "Governance", "Engineering", "Financial", "Strategy", "Microclimate"];
+            const container = document.getElementById('category-tabs');
+            container.innerHTML = categories.map(cat => `
+                <button onclick="setCategory('${cat}')" 
+                        class="px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition ${activeCategory === cat 
+                            ? 'bg-emerald-500 text-black font-bold shadow-lg shadow-emerald-500/20' 
+                            : 'bg-gray-900 text-gray-400 hover:text-white border border-gray-800 hover:border-gray-700'}">
+                    ${cat} ${cat === 'All' ? `(${documents.length})` : ''}
+                </button>
+            `).join('');
+        }
+
+        // Category Selection
+        function setCategory(cat) {
+            activeCategory = cat;
+            renderCategoryTabs();
+            filterDocuments();
+        }
+
+        // Filter and Render Cards
+        function filterDocuments() {
+            const searchVal = document.getElementById('search-input').value.toLowerCase();
+            const sortVal = document.getElementById('sort-select').value;
+
+            let filtered = documents.filter(doc => {
+                const matchesCat = activeCategory === "All" || doc.category === activeCategory;
+                const matchesSearch = doc.title.toLowerCase().includes(searchVal) || 
+                                      doc.filename.toLowerCase().includes(searchVal) ||
+                                      doc.desc.toLowerCase().includes(searchVal);
+                return matchesCat && matchesSearch;
+            });
+
+            // Sorting logic
+            if (sortVal === "name-asc") {
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+            } else if (sortVal === "size-desc") {
+                filtered.sort((a, b) => parseInt(b.htmlSize) - parseInt(a.htmlSize));
+            } else if (sortVal === "date-desc") {
+                filtered.sort((a, b) => b.date.localeCompare(a.date));
+            }
+
+            renderGrid(filtered);
+        }
+
+        // Render Grid
+        function renderGrid(docs) {
+            const grid = document.getElementById('document-grid');
+            if (docs.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full py-12 text-center text-gray-500 bg-gray-900/50 border border-gray-800 rounded-2xl">
+                        <i data-lucide="file-question" class="w-10 h-10 mx-auto mb-2 text-gray-600"></i>
+                        <p class="text-base font-semibold">No assets found matching your filter criteria.</p>
+                        <p class="text-xs text-gray-600 mt-1">Try resetting your search or tab filters.</p>
+                    </div>
+                `;
+                lucide.createIcons();
+                return;
+            }
+
+            grid.innerHTML = docs.map(doc => `
+                <div class="glass-card rounded-2xl p-6 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <!-- Top Badges -->
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-900 border border-gray-800 text-[10px] font-mono font-semibold uppercase tracking-wider text-emerald-400">
+                                ${doc.category}
+                            </span>
+                            <div class="flex items-center space-x-1 font-mono text-[11px] text-gray-400">
+                                <span class="px-1.5 py-0.5 rounded bg-emerald-950/80 text-emerald-400 border border-emerald-500/20 font-bold">.HTML (${doc.htmlSize})</span>
+                                ${doc.pdfSize !== 'N/A' ? `<span class="px-1.5 py-0.5 rounded bg-red-950/80 text-red-400 border border-red-500/20 font-bold">.PDF</span>` : ''}
+                            </div>
+                        </div>
+
+                        <!-- Card Header & Title -->
+                        <div>
+                            <h3 class="text-base font-bold text-white group-hover:text-emerald-400 transition leading-snug">
+                                ${doc.title}
+                            </h3>
+                            <p class="text-xs font-mono text-gray-400 mt-1">${doc.filename}.html</p>
+                        </div>
+
+                        <!-- Description -->
+                        <p class="text-xs text-gray-400 leading-relaxed line-clamp-2">
+                            ${doc.desc}
+                        </p>
+                    </div>
+
+                    <!-- Card Footer & Action -->
+                    <div class="pt-5 mt-4 border-t border-gray-800/80 flex items-center justify-between">
+                        <span class="text-[11px] font-mono text-gray-400 flex items-center gap-1">
+                            <i data-lucide="calendar" class="w-3.5 h-3.5 text-gray-400"></i> ${doc.date}
+                        </span>
+                        <button onclick="openModal('${doc.id}')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-black border border-emerald-500/30 text-xs font-semibold transition">
+                            <span>OPEN DOCUMENT</span>
+                            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+
+            lucide.createIcons();
+        }
+
+        // Open Modal
+        function openModal(id) {
+            activeDoc = documents.find(d => d.id === id);
+            if (!activeDoc) return;
+
+            document.getElementById('modal-title').innerText = activeDoc.title;
+            document.getElementById('modal-filename').innerText = `${activeDoc.filename}.html`;
+            document.getElementById('modal-filesizes').innerText = `HTML: ${activeDoc.htmlSize} | PDF: ${activeDoc.pdfSize}`;
+            
+            switchModalTab('view');
+            document.getElementById('doc-modal').classList.remove('hidden');
+        }
+
+        // Switch Modal Tabs (HTML view vs PDF metadata)
+        function switchModalTab(tab) {
+            const body = document.getElementById('modal-body-content');
+            const btnView = document.getElementById('tab-btn-view');
+            const btnMeta = document.getElementById('tab-btn-meta');
+
+            if (tab === 'view') {
+                btnView.className = "px-3 py-1.5 rounded-lg font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
+                btnMeta.className = "px-3 py-1.5 rounded-lg font-semibold text-gray-400 hover:text-gray-200";
+                
+                body.innerHTML = `
+                    <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 space-y-6">
+                        <!-- Simulated Toolbar -->
+                        <div class="flex items-center justify-between border-b border-gray-800 pb-4 text-xs font-mono text-gray-400">
+                            <div class="flex items-center space-x-2">
+                                <span class="w-3 h-3 rounded-full bg-red-500 inline-block"></span>
+                                <span class="w-3 h-3 rounded-full bg-amber-500 inline-block"></span>
+                                <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
+                                <span class="ml-2 text-gray-300">SCAPUSH_PRECISION_VIEWER_v2.4</span>
+                            </div>
+                            <span class="text-emerald-400 font-bold">ENCRYPTED READ-ONLY</span>
+                        </div>
+
+                        <!-- Render Document Content -->
+                        ${activeDoc.content}
+
+                        <!-- Technical Spec Footer within Document -->
+                        <div class="pt-6 border-t border-gray-800/80 text-xs text-gray-400 font-mono flex flex-wrap justify-between gap-2">
+                            <span>FILE HASH: 0x${Math.random().toString(16).substr(2, 8).toUpperCase()}</span>
+                            <span>PRECISION LEVEL: SCAPUSH GOLD</span>
+                        </div>
+                    </div>
+                `;
+            } else {
+                btnMeta.className = "px-3 py-1.5 rounded-lg font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30";
+                btnView.className = "px-3 py-1.5 rounded-lg font-semibold text-gray-400 hover:text-gray-200";
+
+                body.innerHTML = `
+                    <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 space-y-4">
+                        <h4 class="text-sm font-bold text-amber-400 uppercase tracking-wider font-mono">Adobe Acrobat PDF Audit Manifest</h4>
+                        
+                        <div class="grid grid-cols-2 gap-4 text-xs font-mono">
+                            <div class="p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                <span class="text-gray-400 block">PDF Asset Name:</span>
+                                <span class="text-white font-bold">${activeDoc.filename}.pdf</span>
+                            </div>
+                            <div class="p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                <span class="text-gray-400 block">PDF File Size:</span>
+                                <span class="text-emerald-400 font-bold">${activeDoc.pdfSize}</span>
+                            </div>
+                            <div class="p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                <span class="text-gray-400 block">PDF Compliance:</span>
+                                <span class="text-white font-bold">PDF/A-2b Sovereign Standard</span>
+                            </div>
+                            <div class="p-3 bg-gray-900 rounded-lg border border-gray-800">
+                                <span class="text-gray-400 block">Security Sign-off:</span>
+                                <span class="text-amber-400 font-bold">Scapush Cryptographic Verified</span>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-gray-900/60 rounded-xl border border-gray-800 text-xs text-gray-300 space-y-2">
+                            <span class="font-bold text-gray-200">PDF Archival Note:</span>
+                            <p>This PDF document mirror is compiled for formal print distribution, municipal zoning submissions, and legal registry binding for the Jubilee Inclusive Green Campus project.</p>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        // Close Modal
+        function closeModal() {
+            document.getElementById('doc-modal').classList.add('hidden');
+            activeDoc = null;
+        }
+
+        // Simulated Actions
+        function simPrint() {
+            window.print();
+        }
+
+        function simDownload() {
+            if (!activeDoc) return;
+            alert(`Simulating secure download for ${activeDoc.filename}.html (${activeDoc.htmlSize})`);
+        }
+
+        function downloadAllManifest() {
+            const manifestText = documents.map(d => `${d.id}. ${d.title} [${d.filename}.html - ${d.htmlSize} | PDF: ${d.pdfSize}]`).join('\n');
+            const blob = new Blob([`JUBILEE INCLUSIVE GREEN CAMPUS - MANIFEST\n\n${manifestText}`], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'Jubilee_Campus_Manifest.txt';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function refreshData() {
+            const btn = event.currentTarget;
+            btn.classList.add('animate-spin');
+            setTimeout(() => {
+                btn.classList.remove('animate-spin');
+                filterDocuments();
+            }, 500);
+        }
+    </script>
+
+</body></html>
